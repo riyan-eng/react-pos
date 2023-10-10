@@ -1,0 +1,56 @@
+@media (max-width: 600px) {
+    .sider {
+        display: none;
+    }
+}
+
+@media (min-width: 600px) {
+    .layout-1 {
+        margin-left: 80px;
+        transition: 0.5s cubic-bezier(.36,-0.01,0,.77);
+    }
+
+    .layout-2 {
+        margin-left: 200px;
+    }
+
+    .logo-text-1 {
+        display: none;
+    }
+
+    .drawer-component {
+        display: none;
+    }
+
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+:where(.css-dev-only-do-not-override-17a39f8).ant-drawer .ant-drawer-header {
+    display: flex;
+    flex: 0;
+    align-items: center;
+    padding: 0;
+    background-color: #001529;
+}
+
+:where(.css-dev-only-do-not-override-17a39f8).ant-drawer .ant-drawer-body {
+    flex: 1;
+    min-width: 0;
+    min-height: 0;
+    padding: 0;
+    overflow: auto;
+    background-color: #001529;
+}
+
+.demo-logo-vertical {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
